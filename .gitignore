@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+cookies.txt
+*.log
+*.nohup
+*.pid
+*.lock
+*.jsonl
+scan_state.json
+download_state.json
+.DS_Store
