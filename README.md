@@ -3,8 +3,6 @@
 A self-hosted scanner, differential downloader, and live web dashboard for
 syncing a selected 115 cloud directory to local storage.
 
-![Dashboard](assets/sync-bg.png)
-
 ## Features
 
 - Recursively scans one configured 115 directory.
@@ -145,7 +143,6 @@ src/config.py                 Shared environment configuration
 src/scanner.py                Recursive 115 directory scanner
 src/incremental_download.py   Differential download engine
 src/server.py                 Dashboard and control API
-assets/sync-bg.png            Dashboard background
 deploy/systemd/               Linux service examples
 ```
 
