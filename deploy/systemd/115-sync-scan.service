@@ -1,0 +1,12 @@
+[Unit]
+Description=Scan a configured 115 directory
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=media
+Group=media
+WorkingDirectory=/opt/115-sync-console
+EnvironmentFile=/etc/115-sync-console.env
+ExecStart=/opt/115-sync-console/.venv/bin/python /opt/115-sync-console/src/scanner.py
